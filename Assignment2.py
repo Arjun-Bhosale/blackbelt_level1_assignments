@@ -11,7 +11,7 @@ os.system('cls')
 random_int = random.randint(1, 10)
 
 #Get the input of range 1 - 10 from user
-user_input = str(input("Guess a number between 1 & 10 : "))
+user_input = str(input("Guess a number between 1 & 11 : "))
 
 #Correct the incorrect user inputs untill the integer matches randomly generated value
 while (user_input.isnumeric() == False) or (int(user_input) != int(random_int)):
